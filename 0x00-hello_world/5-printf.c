@@ -2,7 +2,7 @@
 
 /**
  * main - prints "with proper grammar, but the outcomeis
- * a piece of art," followed new line.
+ * a piece of art," followed by a new line.
  *
  * Return: Always 0.
  */
