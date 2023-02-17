@@ -4,7 +4,7 @@
  * main- Entry point
  * @void: Null value
  *
- * Description: Print numbers from 00 to 99
+ * Description: Print numbers from 01 to 99
  * Return: Zero value
  */
 
