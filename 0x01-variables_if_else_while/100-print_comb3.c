@@ -1,10 +1,13 @@
 #include <stdio.h>
-#include <stdlib.h>
+
 /**
- * main - A program that prints all numbers 00-99
+ * main- Entry point
+ * @void: Null value
  *
- * Return: Always 0 (Success)
+ * Description: Print numbers from 01 to 89
+ * Return: Zero value
  */
+
 int main(void)
 {
 	int n;
@@ -13,12 +16,13 @@ int main(void)
 	{
 		putchar((n / 10) + '0');
 		putchar((n % 10) + '0');
-		if (num != 89)
+		if (n != 89)
 		{
-		putchar(',');
-		putchar(' ');
+			putchar(',');
+			putchar(' ');
 		}
-		}
+	}
 	putchar('\n');
 	return (0);
 }
+
